@@ -497,6 +497,9 @@
         }
       },
       "UserManagement.Domain/1.0.0": {
+        "dependencies": {
+          "BCrypt.Net-Next": "4.1.0"
+        },
         "runtime": {
           "UserManagement.Domain.dll": {
             "assemblyVersion": "1.0.0.0",

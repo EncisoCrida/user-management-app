@@ -66,7 +66,7 @@ VITE_API_URL=http://localhost:5186/api
 
 ## Backend
 
-Restaurar dependencias:
+Restaurar dependencias: ruta cd backend/UserManagement.Api
 
 ```bash
 dotnet restore

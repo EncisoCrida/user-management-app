@@ -15,3 +15,4 @@ D:\xampp\htdocs\user-management-app\backend\UserManagement.Application\obj\Debug
 D:\xampp\htdocs\user-management-app\backend\UserManagement.Application\obj\Debug\net10.0\ref\UserManagement.Application.dll
 D:\xampp\htdocs\user-management-app\backend\UserManagement.Application\bin\Debug\net10.0\UserManagement.Infrastructure.dll
 D:\xampp\htdocs\user-management-app\backend\UserManagement.Application\bin\Debug\net10.0\UserManagement.Infrastructure.pdb
+D:\xampp\htdocs\user-management-app\backend\UserManagement.Application\obj\Debug\net10.0\UserManagement.Application.sourcelink.json

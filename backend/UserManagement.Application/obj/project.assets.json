@@ -699,6 +699,9 @@
       "UserManagement.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "BCrypt.Net-Next": "4.1.0"
+        },
         "compile": {
           "bin/placeholder/UserManagement.Domain.dll": {}
         },
