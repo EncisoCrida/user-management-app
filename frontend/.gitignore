@@ -1,3 +1,15 @@
+# -------------------------
+# FRONTEND (Node / React)
+# -------------------------
+node_modules
+dist
+dist-ssr
+*.local
+
+# ENV FILES (IMPORTANTE)
+.env
+.env.*
+
 # Logs
 logs
 *.log
@@ -7,12 +19,23 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# -------------------------
+# BACKEND (.NET)
+# -------------------------
+bin/
+obj/
+*.user
+*.db
+*.sqlite
+*.pdb
+*.mdb
 
-# Editor directories and files
+# User secrets (extra protección)
+secrets.json
+
+# -------------------------
+# IDE / EDITOR
+# -------------------------
 .vscode/*
 !.vscode/extensions.json
 .idea
@@ -22,3 +45,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# -------------------------
+# OS
+# -------------------------
+Thumbs.db
