@@ -10,10 +10,14 @@ Aplicación fullstack para gestión de usuarios con autenticación JWT, roles y 
 
 * .NET 10 / ASP.NET Core Web API
 * Entity Framework Core
-* SQL Server
+* SQL Server (LocalDB recomendado)
 * JWT Authentication (HS256)
 * BCrypt (hash de contraseñas)
 * Swagger
+
+Nota:
+Este proyecto utiliza .NET 10, asegúrese de tenerlo instalado antes de ejecutar.
+https://dotnet.microsoft.com/download
 
 ## Frontend
 
@@ -25,9 +29,9 @@ Aplicación fullstack para gestión de usuarios con autenticación JWT, roles y 
 
 # Requisitos previos
 
-* .NET 10
+* .NET 10 
 * Node.js 18+
-* SQL Server (LocalDB, Express o Docker)
+* SQL Server Express o Visual Studio (para LocalDB)
 * Git
 
 ---
@@ -38,7 +42,7 @@ Aplicación fullstack para gestión de usuarios con autenticación JWT, roles y 
 
 Este proyecto usa user-secrets para proteger datos sensibles.
 
-### Configuración:
+### Configuración
 
 ```bash
 cd backend/UserManagement.Api
@@ -46,13 +50,35 @@ cd backend/UserManagement.Api
 dotnet user-secrets init
 
 dotnet user-secrets set "Jwt:Key" "SUPER_SECRET_KEY_12345678901234567890"
-
-dotnet user-secrets set "ConnectionStrings:DefaultConnection" "Server=localhost\\SQLEXPRESS;Database=UserManagementDB;Trusted_Connection=True;TrustServerCertificate=True;"
 ```
 
 ---
 
-## Frontend (.env)
+# Base de datos
+
+### Configuración (LocalDB - recomendado)
+
+```bash
+dotnet user-secrets set "ConnectionStrings:DefaultConnection" "Server=(localdb)\MSSQLLocalDB;Database=UserManagementDB;Trusted_Connection=True;"
+```
+
+Luego ejecutar:
+
+```bash
+cd backend/UserManagement.Api
+
+dotnet restore
+dotnet ef database update
+```
+
+Esto creará automáticamente la base de datos y las tablas necesarias.
+
+Nota:
+LocalDB requiere SQL Server Express o Visual Studio instalado.
+
+---
+
+# Frontend (.env)
 
 Crear archivo:
 
@@ -66,9 +92,9 @@ VITE_API_URL=http://localhost:5186/api
 
 ## Backend
 
-Restaurar dependencias: ruta cd backend/UserManagement.Api
-
 ```bash
+cd backend/UserManagement.Api
+
 dotnet restore
 ```
 
@@ -82,43 +108,11 @@ dotnet tool install --global dotnet-ef
 
 ## Frontend
 
-Instalar dependencias:
-
 ```bash
+cd frontend
+
 npm install
 ```
-
----
-
-# Base de datos
-
-La base de datos se gestiona mediante migraciones de Entity Framework Core.
-
-Las migraciones se encuentran en:
-
-```
-backend/UserManagement.Infrastructure/Migrations
-```
-
-Para crear la base de datos y aplicar el esquema:
-
-```bash
-cd backend/UserManagement.Api
-
-dotnet ef database update
-```
-
-Esto creará automáticamente la base de datos y las tablas necesarias.
-
-## Datos iniciales
-
-Al iniciar la aplicación, se crean automáticamente usuarios de prueba:
-
-Admin:
-[admin@demo.com](mailto:admin@demo.com) / Admin123!
-
-Usuario:
-[user@demo.com](mailto:user@demo.com) / User123!
 
 ---
 
@@ -145,7 +139,6 @@ http://localhost:5186/swagger
 ```bash
 cd frontend
 
-npm install
 npm run dev
 ```
 
@@ -215,7 +208,7 @@ POST /api/auth/login
 accessToken
 ```
 
-4. Click en **Authorize**
+4. Click en Authorize
 
 5. Pegar únicamente:
 
@@ -223,7 +216,7 @@ accessToken
 {token}
 ```
 
-No es necesario escribir "Bearer", Swagger lo agrega automáticamente.
+Swagger agrega automáticamente el prefijo Bearer.
 
 ---
 
@@ -347,11 +340,11 @@ user@demo.com / User123!
 
 # Notas técnicas
 
-* Las variables sensibles (JWT y DB) están fuera del repositorio usando user-secrets
-* No se usan servicios externos de autenticación
-* La base de datos se crea mediante migraciones de Entity Framework Core
+* Variables sensibles manejadas con user-secrets
+* No se utilizan servicios externos de autenticación
+* Base de datos gestionada con migraciones de Entity Framework Core
 * Seeder automático para datos iniciales
-* Arquitectura limpia con separación en capas
+* Arquitectura limpia por capas
 * Frontend responsive y accesible
 
 ---
