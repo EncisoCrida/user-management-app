@@ -1,0 +1,15 @@
+D:\xampp\htdocs\user-management-app\backend\UserManagement.Infrastructure\bin\Debug\net10.0\UserManagement.Infrastructure.deps.json
+D:\xampp\htdocs\user-management-app\backend\UserManagement.Infrastructure\bin\Debug\net10.0\UserManagement.Infrastructure.dll
+D:\xampp\htdocs\user-management-app\backend\UserManagement.Infrastructure\bin\Debug\net10.0\UserManagement.Infrastructure.pdb
+D:\xampp\htdocs\user-management-app\backend\UserManagement.Infrastructure\bin\Debug\net10.0\UserManagement.Domain.dll
+D:\xampp\htdocs\user-management-app\backend\UserManagement.Infrastructure\bin\Debug\net10.0\UserManagement.Domain.pdb
+D:\xampp\htdocs\user-management-app\backend\UserManagement.Infrastructure\obj\Debug\net10.0\UserManagement.Infrastructure.csproj.AssemblyReference.cache
+D:\xampp\htdocs\user-management-app\backend\UserManagement.Infrastructure\obj\Debug\net10.0\UserManagement.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\xampp\htdocs\user-management-app\backend\UserManagement.Infrastructure\obj\Debug\net10.0\UserManagement.Infrastructure.AssemblyInfoInputs.cache
+D:\xampp\htdocs\user-management-app\backend\UserManagement.Infrastructure\obj\Debug\net10.0\UserManagement.Infrastructure.AssemblyInfo.cs
+D:\xampp\htdocs\user-management-app\backend\UserManagement.Infrastructure\obj\Debug\net10.0\UserManagement.Infrastructure.csproj.CoreCompileInputs.cache
+D:\xampp\htdocs\user-management-app\backend\UserManagement.Infrastructure\obj\Debug\net10.0\UserMana.ED8CE3B0.Up2Date
+D:\xampp\htdocs\user-management-app\backend\UserManagement.Infrastructure\obj\Debug\net10.0\UserManagement.Infrastructure.dll
+D:\xampp\htdocs\user-management-app\backend\UserManagement.Infrastructure\obj\Debug\net10.0\refint\UserManagement.Infrastructure.dll
+D:\xampp\htdocs\user-management-app\backend\UserManagement.Infrastructure\obj\Debug\net10.0\UserManagement.Infrastructure.pdb
+D:\xampp\htdocs\user-management-app\backend\UserManagement.Infrastructure\obj\Debug\net10.0\ref\UserManagement.Infrastructure.dll
