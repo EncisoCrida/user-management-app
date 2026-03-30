@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\xampp\\htdocs\\user-management-app\\backend\\UserManagement.Domain\\UserManagement.Domain.csproj": {}
+    "C:\\Users\\crida\\Desktop\\user-management-app\\user-management-app\\backend\\UserManagement.Domain\\UserManagement.Domain.csproj": {}
   },
   "projects": {
-    "D:\\xampp\\htdocs\\user-management-app\\backend\\UserManagement.Domain\\UserManagement.Domain.csproj": {
+    "C:\\Users\\crida\\Desktop\\user-management-app\\user-management-app\\backend\\UserManagement.Domain\\UserManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\xampp\\htdocs\\user-management-app\\backend\\UserManagement.Domain\\UserManagement.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\crida\\Desktop\\user-management-app\\user-management-app\\backend\\UserManagement.Domain\\UserManagement.Domain.csproj",
         "projectName": "UserManagement.Domain",
-        "projectPath": "D:\\xampp\\htdocs\\user-management-app\\backend\\UserManagement.Domain\\UserManagement.Domain.csproj",
+        "projectPath": "C:\\Users\\crida\\Desktop\\user-management-app\\user-management-app\\backend\\UserManagement.Domain\\UserManagement.Domain.csproj",
         "packagesPath": "C:\\Users\\crida\\.nuget\\packages\\",
-        "outputPath": "D:\\xampp\\htdocs\\user-management-app\\backend\\UserManagement.Domain\\obj\\",
+        "outputPath": "C:\\Users\\crida\\Desktop\\user-management-app\\user-management-app\\backend\\UserManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\crida\\AppData\\Roaming\\NuGet\\NuGet.Config"

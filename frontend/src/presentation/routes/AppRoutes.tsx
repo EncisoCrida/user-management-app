@@ -52,7 +52,7 @@ export default function AppRoutes() {
         <Route
           path="/users/new"
           element={
-            <PrivateRoute>
+            <PrivateRoute roles={["admin"]} >
               <CreateUserPage />
             </PrivateRoute>
           }

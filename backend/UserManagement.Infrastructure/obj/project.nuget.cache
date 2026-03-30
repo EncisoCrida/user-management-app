@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Cp7YnaoyFSk=",
+  "dgSpecHash": "IvHt/d6qL40=",
   "success": true,
-  "projectFilePath": "D:\\xampp\\htdocs\\user-management-app\\backend\\UserManagement.Infrastructure\\UserManagement.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\crida\\Desktop\\user-management-app\\user-management-app\\backend\\UserManagement.Infrastructure\\UserManagement.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\crida\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\crida\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
